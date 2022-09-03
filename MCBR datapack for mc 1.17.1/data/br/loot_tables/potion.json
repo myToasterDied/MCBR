@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Speed Potion\",\"italic\":false}'},CustomPotionEffects:[{Id:1,Amplifier:0b,Duration:300}],CustomPotionColor:65416}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Health Potion\",\"italic\":false}'},CustomPotionEffects:[{Id:10,Amplifier:0b,Duration:300}],CustomPotionColor:65416}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Shield Potion\",\"italic\":false}'},CustomPotionEffects:[{Id:11,Amplifier:0b,Duration:300}],CustomPotionColor:65416}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

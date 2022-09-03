@@ -1,0 +1,121 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:leather_helmet",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:leather_chestplate",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:leather_leggings",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:leather_boots",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:chainmail_helmet",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:chainmail_chestplate",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:chainmail_leggings",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:chainmail_boots",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:golden_helmet",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 5,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:golden_chestplate",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 5,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:golden_leggings",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 5,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:golden_boots",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 5,
+                                "max": 15
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
