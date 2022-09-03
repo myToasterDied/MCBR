@@ -18,3 +18,4 @@ the las team alive wins!
 
 have fun!
 
+if you found any bugs, please report at my github!
