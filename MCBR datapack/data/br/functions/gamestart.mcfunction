@@ -6,6 +6,8 @@ function br:spreadloot
 
 scoreboard players operation @a entitygameid = .op gameid 
 
+
+clear @a
 scoreboard players set .op gametrue 1
 scoreboard players set .op gametimer 0
 gamemode adventure @a
