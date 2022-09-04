@@ -1,6 +1,5 @@
 execute run scoreboard players add .op gametimer 1
 execute if score .op gametimer matches 2400.. run worldborder add -0.1
-execute if score .op gametimer matches 12000 run effect give @a wither 1 9
 execute if score .op gametimer matches 13200 run function br:gamestop
 
 execute as @a[scores={hasdied=1}] run scoreboard players set @s entitygameid 0
